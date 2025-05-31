@@ -1,0 +1,89 @@
+# 🧾 Mini Sistema de Vendas (PDV) com JavaScript Puro
+
+Este é um sistema simples de ponto de venda (PDV) desenvolvido com **HTML, CSS e JavaScript puro**.  
+Ideal para quem está aprendendo desenvolvimento web e quer treinar manipulação do DOM, lógica de programação e organização de layout.
+
+## 🎯 Objetivo
+
+Este projeto foi criado com o propósito de praticar os seguintes conceitos:
+
+- ✅ Manipulação do DOM  
+- ✅ Cálculo de totais (subtotal, desconto, total)  
+- ✅ Adição e remoção dinâmica de itens  
+- ✅ Uso opcional do `localStorage` para histórico de vendas  
+- ✅ Eventos de teclado (atalhos)  
+- ✅ Estrutura e responsividade com HTML e CSS  
+
+---
+
+## ✅ Etapas do Projeto
+
+### 🧱 Estrutura Geral
+
+- **Campo de entrada** para adicionar produto:
+  - Nome
+  - Preço
+  - Quantidade
+- **Tabela** para exibição dos itens adicionados
+- **Cálculo automático** de:
+  - Subtotal
+  - Desconto
+  - Total
+- **Botões principais**:
+  - Adicionar Produto
+  - Remover Item
+  - Finalizar Venda (com alerta ou recibo)
+- **Campos adicionais**:
+  - Forma de pagamento (Dinheiro / Cartão / Pix)
+  - Campo de desconto (manual ou automático)
+- **Interface limpa e responsiva** com HTML e CSS
+
+---
+
+## 🛠 Funcionalidades JavaScript
+
+- Adicionar produto pressionando **Enter**
+- Atualização dos totais em **tempo real**
+- Botão **"Finalizar Venda"**:
+  - Exibe o total
+  - Limpa a lista de produtos
+- **Uso opcional do `localStorage`** para salvar o histórico de vendas
+- **Atalhos de teclado**:
+  - `F1` = Novo Produto
+  - `F2` = Finalizar Venda
+
+---
+
+## 💡 Possibilidades de Expansão
+
+- Autenticação de usuário
+- Relatório de vendas
+- Exportação de dados (CSV/PDF)
+- Integração com banco de dados
+- Painel administrativo
+
+---
+
+## 📂 Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+
+---
+
+## 📸 Captura de Tela
+
+> *Adicione aqui uma imagem ou GIF da interface em funcionamento para melhor apresentação do projeto.*
+
+---
+
+## 🧠 Autor
+
+Desenvolvido por **Eribaldo dos Santos Oliveira** como projeto de prática para reforço em lógica de programação e front-end.
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e compartilhar!

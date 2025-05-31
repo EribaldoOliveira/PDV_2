@@ -1,0 +1,95 @@
+# 🧾 Mini Sistema de Vendas (PDV) com JavaScript Puro
+
+Este projeto é um sistema simples de ponto de venda (PDV) desenvolvido com **HTML**, **CSS** e **JavaScript puro**, ideal para treinar habilidades essenciais de desenvolvimento web.  
+Ele inclui funcionalidades comuns em sistemas de vendas e pode ser expandido conforme a necessidade.
+
+---
+
+## 🎯 Objetivo
+
+Praticar os seguintes conceitos:
+
+- Manipulação do DOM  
+- Cálculo de totais (subtotal, desconto, total)  
+- Adição e remoção dinâmica de itens  
+- Uso opcional de `localStorage` para histórico de vendas  
+- Eventos de teclado (atalhos)  
+- Estrutura e responsividade com HTML/CSS  
+
+---
+
+## ✅ Etapas do Projeto
+
+### 🧱 Estrutura Geral
+
+- Campo de entrada para adicionar produto:
+  - Nome
+  - Preço
+  - Quantidade
+
+- Tabela de itens exibindo os produtos adicionados
+
+- Cálculo automático de:
+  - Subtotal
+  - Desconto
+  - Total
+
+- Botões de ação:
+  - Adicionar produto
+  - Remover item
+  - Finalizar venda (exibe alerta ou recibo)
+
+- Campos adicionais:
+  - Forma de pagamento: Dinheiro / Cartão / Pix
+  - Campo de desconto: manual ou automático
+
+- Layout responsivo e limpo com HTML e CSS
+
+---
+
+## 🛠 Funcionalidades JavaScript
+
+- Adicionar produto pressionando a tecla **Enter**
+- Atualização em **tempo real** dos totais ao modificar produtos
+- Finalizar venda:
+  - Exibe o total
+  - Limpa os dados da tabela
+
+- Uso opcional do `localStorage` para:
+  - Salvar e carregar histórico de vendas
+
+- Atalhos de teclado:
+  - `F1` = Novo produto
+  - `F2` = Finalizar venda
+
+---
+
+## 🚀 Expansão
+
+Este projeto serve tanto para aprendizado quanto como base para sistemas mais robustos.  
+Você pode evoluí-lo com funcionalidades como:
+
+- Autenticação de usuário  
+- Banco de dados  
+- Relatórios de vendas  
+- Exportação para PDF/CSV  
+- Painel administrativo  
+
+## 🚀 Eevoluir esse projeto, posso te ajudar a adicionar:
+
+- Formas de pagamento
+
+- Impressão de recibo (modo de impressão)
+
+- Armazenar Histórico de vendas com localStorage
+
+- Atalhos de teclado
+
+- Modo escuro/claro
+
+- Exportar histórico das vendas para CSV
+
+- Filtros por data e cliente
+
+- Tipos de pagamento (dinheiro, cartão, pix)
+
